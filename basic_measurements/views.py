@@ -6,6 +6,11 @@ from .models import Measurement
 
 def calculate_distance_view(request):
     obj = get_object_or_404(Measurement, id=1)
+    print('********************************************')
+    print('********************************************')
+    print('**Testing Git Modules**')
+    print('********************************************')
+    print('********************************************')
 
     context = {
         'distance': obj,
